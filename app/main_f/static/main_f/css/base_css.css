@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*CORE*/
+html, body{width:100%; height:100%; background-color:black; color:white; font-family:"Montserrat",monospace;}
+a, a:hover{color:inherit;}
+button{background-color:transparent; border:0; font-size:20px;}
+button:hover{text-decoration:underline;}
+button:enabled{outline:0;}
+.text_white{color:white;}
+.content{width:70%; vertical-align:middle; margin:auto; padding-top:10%;}
+.text_input{width:100%;}
+.empty_user, .exists_user{display:none; width:100%;}
+.userexit{position:absolute; right:20px; top:26px; font-size:16px; display:none;}
